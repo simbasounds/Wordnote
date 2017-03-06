@@ -12,7 +12,7 @@ WordPress is well-tooled for the purpose of taking, editing, classifying, sortin
 ## Importing
 For existing Evernote users, getting your notes into a WordPress database as posts is possible using a number of methods.
 ### Note Update Sync
-When you create or update a note, a WordPress post is created or updated. This can be used to migrate existing notes by applying a small change to them, such as adding a tag, which triggers an update. There are ![manual methods](https://discussion.evernote.com/topic/62196-export-to-wordpress/?do=findComment&comment=343863), WordPress plugins such as ![EverPress](https://wordpress.org/plugins/everpress/) and ![Sentinote](https://wordpress.org/plugins/sentinote/), general services such as ![IFTT (link to module)](https://ifttt.com/connect/evernote/wordpress) and ![Zapier](https://zapier.com/zapbook/evernote/wordpress/), and more dedicated services such as ![EaTags](https://eatags.com/).
+When you create or update a note, a WordPress post is created or updated. This can be used to migrate existing notes by applying a small change to them, such as adding a tag, which triggers an update. There are [https://discussion.evernote.com/topic/62196-export-to-wordpress/?do=findComment&comment=343863 manual methods], WordPress plugins such as [https://wordpress.org/plugins/everpress/ EverPress] and ![Sentinote](https://wordpress.org/plugins/sentinote/), general services such as ![IFTT (link to module)](https://ifttt.com/connect/evernote/wordpress) and ![Zapier](https://zapier.com/zapbook/evernote/wordpress/), and more dedicated services such as ![EaTags](https://eatags.com/).
 
 ## Note Migration Services
 Notes can be migrated
