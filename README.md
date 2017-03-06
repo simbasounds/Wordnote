@@ -11,15 +11,18 @@ WordPress is well-tooled for the purpose of taking, editing, classifying, sortin
 
 ## Importing
 For existing Evernote users, getting your notes into a WordPress database as posts is possible using a number of methods.
-### Note Update Sync
-When you create or update a note, a WordPress post is created or updated. This can be used to migrate existing notes by applying a small change to them, such as adding a tag, which triggers an update. There are [https://discussion.evernote.com/topic/62196-export-to-wordpress/?do=findComment&comment=343863 manual methods], WordPress plugins such as [https://wordpress.org/plugins/everpress/ EverPress] and ![Sentinote](https://wordpress.org/plugins/sentinote/), general services such as ![IFTT (link to module)](https://ifttt.com/connect/evernote/wordpress) and ![Zapier](https://zapier.com/zapbook/evernote/wordpress/), and more dedicated services such as ![EaTags](https://eatags.com/).
+### Note Update Sync Methods
+When you create or update a note, a WordPress post is created or updated. This can be used to migrate existing notes by applying a small change to them, such as adding a tag, which triggers an update. There are [manual methods](https://discussion.evernote.com/topic/62196-export-to-wordpress/?do=findComment&comment=343863), WordPress plugins such as [EverPress](https://wordpress.org/plugins/everpress/) and [Sentinote](https://wordpress.org/plugins/sentinote/), general services such as [IFTT (link to module)](https://ifttt.com/connect/evernote/wordpress) and [Zapier](https://zapier.com/zapbook/evernote/wordpress/), and more dedicated services such as [EaTags](https://eatags.com/).
 
 ## Note Migration Services
-Notes can be migrated
+Incomplete
+
+### Export / Import method
+The method that worked for me was exporting all (about 900 in my case) notes from Evernote as HTML files, then importing them again using HTMLImport2 WordPress plugin, which required some specific settings to get this right. I'll cover those shortly.
 
 ## Note Management
 ### Creation
-Simply create, edit and view WordPress posts. Some features, such as front end editing may be added using plugins, such as the ![https://en-za.wordpress.org/plugins/wp-front-end-editor/](Front-end Editor for WordPress).
+To work with "notes" in WordPress, Simply create, edit and view WordPress posts. Some features, such as front end editing may be added using plugins, such as the [Front-end Editor for WordPress](https://en-za.wordpress.org/plugins/wp-front-end-editor/).
 
 ### The Web Clipper - PressThis?
 PressThis works as a basic content clipper, although something with the functionality of the great Evernote Web Clipper is currently being sought.
